@@ -1,0 +1,196 @@
+:root{
+    --preto: #141414;
+    --azul: #1A93C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 20px;
+    color: var(--azul);
+    font-family:'Baloo Bhai 2', cursive;
+    font-size: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+}
+
+header nav{
+    margin-bottom: 10px;
+}
+
+header nav a:hover{
+    color: var(--azul);
+}
+
+.container-buscar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textbox-buscar #buscar{
+    width: 800px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    padding: 20px;
+    caret-color: #1A93C7;
+}
+
+.textbox-buscar i{
+    margin-left: 9px;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.subtitulo{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #DADDFC;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container_generos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.genero{
+    width: 220px;
+    height: 201px;
+    font-family:'Baloo Bhai 2', cursive;
+    flex: 1 1 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.FPS{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/call-of-duty-warzone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.titulo{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 80px;  
+    cursor: pointer;
+}
+
+.MOBA .titulo{
+    margin-left: 140px;
+}
+
+.MMO .titulo{
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+.RPG{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/rpg.jpg');
+    background-size: cover;
+}
+
+.TERROR{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/silent-hill-pyramid.jpg');
+    background-size: cover;
+}
+.FPA{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/valorant.jpeg');
+    background-size: cover;
+}
+
+.PVP{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/pvp.jpg');
+    background-size: cover;
+}
+.AVENTURA{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/aventura.png');
+    background-size: cover;
+}
+
+.ESPORTE{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/fifa.png');
+    background-size: cover;
+}
+
+.SIMULACAO{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/thesims.jpg');
+    background-size: cover;
+}
+
+.SIMULACAO .titulo{
+    margin-left: 42px;
+    margin-top: 80px;
+}
+
+.AVENTURA .titulo{
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.TERROR .titulo{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.ESPORTE .titulo{
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.BR{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/br.jpg');
+    background-size: cover;
+}
+
+.BR .titulo{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.MMO{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/mmo.jpg');
+    background-size: cover;
+}
+
+.MOBA{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lol.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
